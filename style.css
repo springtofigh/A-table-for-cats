@@ -1,0 +1,29 @@
+a {
+	text-decoration: none;
+}
+
+table,td,th{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+td{
+	text-align:center;
+}
+
+td:nth-child(odd){
+	background-color:yellow;
+}
+
+td:nth-child(even){
+	background-color:pink;
+}
+
+table{
+	font-family:tohoma;
+	font-size:50px;
+}
+
+th,td{
+	padding:10px 10px;
+}
